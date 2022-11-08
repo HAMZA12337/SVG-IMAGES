@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      path {
+        stroke: red;
+        stroke-width: 4;
+        fill: red;
+        fill-opacity: 0.2;
+      }
+    </style>
+  </head>
+  <body>
+    <svg height="800" width="800">
+      <g>
+        <path d="M400,200 Q200,100 400,400"  />
+        <path d="M400,200 Q600,100 400,400" />
+      </g>
+      <g transform="rotate(90,400,400)">
+        <path d="M400,200 Q200,100 400,400"  />
+        <path d="M400,200 Q600,100 400,400"  />
+      </g>
+      <g transform="rotate(180,400,400)">
+        <path d="M400,200 Q200,100 400,400"  />
+        <path d="M400,200 Q600,100 400,400" />
+      </g>
+      <g transform="rotate(270,400,400)">
+        <path d="M400,200 Q200,100 400,400" />
+        <path d="M400,200 Q600,100 400,400" />
+      </g>
+
+     
+
+      <!-- Intersection  -->
+      <circle cx="400" cy="400" r="3" style="fill: black" />
+    </svg>
+  </body>
+</html>

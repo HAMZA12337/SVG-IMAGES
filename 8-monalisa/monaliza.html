@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    image{
+        opacity: 0.6;
+    }
+</style>
+<body>
+    <svg width="900" height="900">
+
+      Création du motif -->
+      
+     <pattern id="pat0" width="12" height="10"
+                      patternUnits="userSpaceOnUse">
+                     
+          <circle cx="5" cy="5" r="5" fill="#525252" />
+       
+      </pattern>
+
+      <!-- Utilisation du motif -->
+      
+       <rect x="50" y="50" width="400" height="210" 
+            fill="url(#pat0)"></rect> 
+
+
+           
+
+
+
+    
+            <image xlink:href="Mona.jpg"
+            x="50" y="5" width="400" height="300" />
+  </svg>
+ 
+
+
+
+
+
+
+</body>
+</html>
