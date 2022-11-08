@@ -1,12 +1,39 @@
+
 <!DOCTYPE html>
-<html>
-<body>
- 
-    <svg width="10000" height="10000">
-        <rect x="50" y="20" width="145" height="145" style="fill: red"  transform="rotate(45) translate(150,-200)" />
-        <rect x="200" y="170" width="145" height="145"style="fill: red" transform="rotate(45) translate(160,-190)" />
-        <rect x="40" y="170" width="145" height="145"style="fill: red" transform="rotate(45) translate(160,-190)" />
-        <rect x="40" y="170" width="145" height="145" style="fill: red" transform="rotate(45) translate(320,-350)" />
-        </svg>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     rect {
+        stroke: red;
+        fill: red;
+      
+      }
+      circle{
+        fill:black
+      }
+    </style>
+  </head>
+  <body>
+    <svg height="600" width="600">
+     
+      <g transform="rotate(45,300,300)">
+        <rect x="190" y="190" width="100" height="100"  />
+        <rect x="300" y="190" width="100" height="100"  />
+        <rect x="190" y="300" width="100" height="100" />
+        <rect x="300" y="300" width="100" height="100" />
+      
+
+
+        <!-- LES point de controle -->
+        <circle cx="190" cy="190" r="3"  />
+        <circle cx="300" cy="190" r="3"  />
+        <circle cx="190" cy="300" r="3"  />
+        <circle cx="300" cy="300" r="3"  />
+      </g>
+    </svg>
+  </body>
 </html>
